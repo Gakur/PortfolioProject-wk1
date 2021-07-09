@@ -49,9 +49,9 @@ body {
     margin-top: 2em;
 }
 
-.introduction-section > p,
-.location-section > p,
-.questions-section,
+.Profile-section > p,
+.Projects-location > p,
+.About me location,
 .content-footer > p {
     /* Typography Declarations */
     font-weight: 300;
