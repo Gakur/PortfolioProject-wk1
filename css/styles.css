@@ -4,17 +4,19 @@ body {
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     background-color: salmon;
+    background-image: url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  
 }
 
 .content-footer,
-.masthead-heading,
+.masthead-,
 .masthead-intro {
   text-align: center;
 }
 
 .masthead {
   padding: 6em 0;
-  background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+  background-image: url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-repeat: no-repeat;
   border-top: solid 1em #FFCF33;
@@ -51,14 +53,14 @@ body {
 
 .Profile-section > p,
 .Projects-location > p,
-.About me location,
+.About me-location > p,
 .content-footer > p {
     /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
 }
 
-.questions-section > h2 {
+.hobbies-section > h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
     font-weight: bold;
