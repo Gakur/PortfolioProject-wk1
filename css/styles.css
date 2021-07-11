@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
-.navbar About me location h1 {
+.navbar About me location > h1 {
   text-align: center;
   color: #F1C863;
   background-image: url("https://images.unsplash.com/photo-1625939313799-ac1c5c547db8?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
