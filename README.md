@@ -16,6 +16,7 @@ For Atom users dont use code .
 2.HTML
 ## Support and contact details
 In case of any problem kindly contact us at www.petergakure.go.ke
+petergakure97@gmail.com
 ### License
 * [MIT]("https://github.com/Gakur/PortfolioProject-wk1/blob/master/License")*
 Copyright (c) 2021 **Peter Gakure**
