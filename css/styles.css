@@ -4,37 +4,52 @@ body {
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     background-color: salmon;
-    background-image: url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background: url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
 }
-.navbar h1 a{
-  color: #73A8C2;
+.container > h1 {
+  text-align: left;
+}
+.container >li a {
+  display: inline-block;
+  margin: 0 5px;
+  padding-right: 0rem;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  
 }
-.navbar About me location > h1 {
-  text-align: center;
-  color: #F1C863;
-  background-image: url("https://images.unsplash.com/photo-1625939313799-ac1c5c547db8?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
-}
-.content-footer {
+.About-me-location {
   margin: 50px 0;
   padding: 20px 0;
-  text-align: center;
+  color: blueviolet;
+  text-align: auto;
   background-color: #73A8C2;
   text-decoration: none;
-  background-image: url("https://images.unsplash.com/photo-1625941597147-547f27207294?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ7XPg-QCVs0TakWxqtQ9PFw0Tujaf3-NMg&usqp=CAU");
 }
 .social > li {
   display: inline-block;
   margin: 0 5px;
 }
-.content-footer > p {
+.content-footer {
   color: #F7EDE1;
+  text-align: center;
 }
 a {
     font-weight: bold;
     text-decoration: none;
     color: #F1C863;
+}
+
+.Profile-section{
+  margin: 0 auto;
+  color: black;
+  background-color: blanchedalmond;
+}
+
+.Projects-location{
+  font-size: large;
+  text-align: left;
+  margin: auto;
+  background-image: url("https://proveprivacy.com/wp-content/uploads/2020/02/larq-Jbo_StjLDSc-unsplash-edited-1024x546-1.jpg");
 }
   
 @media only screen and (max-width: 500px) {
