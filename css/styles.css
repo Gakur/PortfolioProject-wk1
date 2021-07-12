@@ -6,15 +6,30 @@ body {
     background-color: salmon;
     background: url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
 }
-.container > h1 {
-  text-align: left;
+.div {
+  max-width: 1200px;
+  margin: auto;
 }
-.container >li a {
-  display: inline-block;
-  margin: 0 5px;
-  padding-right: 0rem;
-  text-align: center;
-  
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 1.5rem 8rem;
+  position: sticky;
+  border-bottom: solid  #fff;
+  z-index: 1;
+  top:0;
+}
+.container ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.container li a {
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
 }
 .About-me-location {
   margin: 50px 0;
