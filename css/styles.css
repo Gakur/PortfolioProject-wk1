@@ -20,6 +20,11 @@ body {
   z-index: 1;
   top:0;
 }
+.container img{
+  margin: 70%;
+  position: sticky;
+
+}
 .container ul {
   display: flex;
   align-items: center;
