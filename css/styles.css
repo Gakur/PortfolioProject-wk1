@@ -50,13 +50,13 @@ body {
   margin: 0 5px;
 }
 .content-footer {
-  color: #F7EDE1;
+  color:orange;
   text-align: center;
 }
 a {
     font-weight: bold;
     text-decoration: none;
-    color: #F1C863;
+    color:olive;
 }
 
 .Profile-section{
